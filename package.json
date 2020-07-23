@@ -1,7 +1,8 @@
 {
-  "name": "project_uber",
+  "name": "Runsmart",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,10 @@
     "gulp-sass": "^4.1.0",
     "i": "^0.3.6"
   },
-  "dependencies": {},
-  "description": ""
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }
