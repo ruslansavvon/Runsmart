@@ -1,5 +1,4 @@
 @media (max-width: 1200px) {
-
   .header {
     &__official {
       color: red;
@@ -44,14 +43,15 @@
     width: 50%;
     display: block;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   }
   .promo {
     &__wrapper {
       align-items: center;
-      margin-right: 0;
+      margin: 50px 0 0 0;
+      
     }
     &__header {
       line-height: 40px;
@@ -69,11 +69,47 @@
   
 }
 @media (max-width: 576px) {
+  .promo {
+    &__wrapper{
+      margin-top: 48px;
+    }
+    &__header {
+      font-size: 23px;
+    }
+    &__subheader {
+      font-size: 12px;
+    }
+    &__icons {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__icon img {
+      margin: 24px auto;
+    }
+    .header {
+      flex-direction: column;
+      &__official {
+        padding-top: 33px;
+      }
+    }
+    .button_main {
+      width: 220px;
+      font-size: 14px;
+    }
+  }
   .advantages {
+    .title {
+      font-size: 22px;
+    }
     &__wrapper {
       flex-direction: column;
       justify-content: center;
       margin: 0 auto;
+    }
+    &__item {
+      margin-top: 30px;
     }
   }
 }
