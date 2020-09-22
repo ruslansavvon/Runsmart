@@ -22,7 +22,22 @@ const slider = tns({
   slideBy: 'page',
   autoplay: false,
   controls: false,
-  nav: false
+  nav: true,
+  navPosition: "bottom",
+  responsive: {
+    576: {
+      nav: true
+    },
+    767: {
+      nav: false
+    },
+    992: {
+      nav: false
+    },
+    1200: {
+      nav: false
+    }
+  }
 });
 
 document.querySelector('.prev').addEventListener('click', function () {

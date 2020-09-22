@@ -1,7 +1,9 @@
 .carousel {
+  min-height: 580px;
   padding: 81px 0;
   &__inner {
     position: relative;
+    width: 750px;
     margin: 0 auto;
   }
   
@@ -25,6 +27,24 @@
     img {
       display: block;
       margin: 0 auto;
+    }
+  }
+
+  .tns-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    button {
+      border-radius: 100%;
+      background-color: red;
+      border: none;
+      width: 20px;
+      height: 20px;
+      margin: 0 2px;
+    }
+    .tns-nav-active {
+      background-color: black;
     }
   }
 }
