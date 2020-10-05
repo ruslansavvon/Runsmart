@@ -2,6 +2,11 @@
   .container {
     max-width: 840px;
   }
+  .catalog {
+    &__content_active {
+      justify-content: space-evenly;
+    }
+  }
 }
 
 @media (max-width: 991px) {
@@ -104,7 +109,7 @@
 }
 @media (max-width: 576px) {
   .container {
-    max-width: 300px;
+    max-width: 350px;
   }
   .promo {
     background: url('../img/main_min.jpg') center (center/cover) no-repeat;
@@ -155,19 +160,65 @@
   }
   .consultation {
     .title_left {
-      font-size: 27px;
-      text-align: left;
+      max-width: 300px;
+      font-size: 19px;
+      text-align: center;
+      margin: 0 auto;
     }
     &__descr {
       font-size:14px;
       line-height: 20px;
-      text-align: left;
+      text-align: center;
     }
     .feed-form {
-      max-width: 250px;
+      max-width: 217px;
+      margin: 36px auto;
     }
     .button_submit {
-      max-width: 250px;
+      font-size: 13px;
+    }
+  }
+  .carousel {
+    min-height: 470px;
+  }
+
+  .catalog {
+    &__tabs {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+    }
+    &__tab {
+      width: 190px;
+      margin: 5px;
+      font-size: 13px;
+    }
+    &-item {
+      max-width: 285px;
+    }
+  }
+  
+  .reviews {
+    display: flex;
+    .title {
+      font-size: 20px;
+    }
+    &__item {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__text {
+      max-width: 275px;
+      margin: 62px auto;
+      text-align: center;
+      padding: 0;
+    }
+    &__descr {
+      font-size: 14px;
     }
   }
     
