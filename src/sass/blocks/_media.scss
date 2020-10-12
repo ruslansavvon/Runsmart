@@ -43,6 +43,19 @@
       }
     }
   }
+  .footer {
+    &__info {
+      max-width: 310px;
+      height: 255px;
+      padding: 30px 30px 40px 30px;
+    }
+    &__addr {
+      font-size: 16px;
+    }
+    &__phone {
+      font-size: 18px;
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -103,6 +116,27 @@
     }
     .prev,.next {
       display: none;
+    }
+  }
+  .footer {
+    &__info {
+      max-width: 250px;
+      height: 225px;
+      padding: 30px 30px 40px 30px;
+    }
+    &__addr {
+      font-size: 16px;
+    }
+    &__phone {
+      font-size: 18px;
+    }
+    &__social-item {
+     width: 30px;
+     height: 30px;
+     margin: 0 8px;
+     img {
+       height: 19px;
+     }
     }
   }
 
@@ -200,6 +234,7 @@
   
   .reviews {
     display: flex;
+    padding-bottom: 25px;
     .title {
       font-size: 20px;
     }
@@ -219,6 +254,11 @@
     }
     &__descr {
       font-size: 14px;
+    }
+  }
+  .footer {
+    &__info {
+      display: none;
     }
   }
     
