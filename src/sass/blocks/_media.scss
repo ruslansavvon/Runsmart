@@ -205,8 +205,8 @@
       text-align: center;
     }
     .feed-form {
-      max-width: 217px;
-      margin: 36px auto;
+      max-width: 300px;
+      margin: 36px 7px;
     }
     .button_submit {
       font-size: 13px;
@@ -259,6 +259,12 @@
   .footer {
     &__info {
       display: none;
+    }
+  }
+  .modal {
+    max-width: 260px;
+    &__close {
+      right: -2px;
     }
   }
     
